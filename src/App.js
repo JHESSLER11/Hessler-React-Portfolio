@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
-import ContactForm from './componenets/Contact';
-import Header from './componenets/Header';
-import Nav from './componenets/Nav';
+import About from './components/About';
+import ContactForm from './components/Contact';
+import Header from './components/Header';
+import Nav from './components/Nav';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false)
@@ -11,6 +12,7 @@ function App() {
       <Header></Header>
       <Nav></Nav>
       <main>
+        <About></About>
         <ContactForm></ContactForm>
       </main>
     </div>
