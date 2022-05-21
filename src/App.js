@@ -6,6 +6,9 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Footer from './components/Footer'
 import Portfolio from './components/Project';
+import Resume from './components/Resume';
+import 'bulma/css/bulma.min.css'
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 import {
   BrowserRouter as Router,
