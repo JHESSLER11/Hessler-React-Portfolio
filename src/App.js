@@ -6,18 +6,34 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Footer from './components/Footer'
 
+// import {
+//   BrowserRouter,
+//   Routes,
+//   Route
+// } from 'react-router-dom'
 
 function App() {
-  const [currentPage, setCurrentCategory] = useState(false)
+  const [currentPage, setCurrentPage] = useState('about')
   return (
+    // <BrowserRouter>
+    //   <Routes>
+    //       <Route path="/" element={<Header />}>
+    //       <Route path="/" element={<Nav />} />
+    //       </Route>
+    //   </Routes>
+    // </BrowserRouter>
     <div>
-      <Header></Header>
+      <Header currentPage = {currentPage} setCurrentPage = {setCurrentPage}>
+        
+      </Header>
       <Nav></Nav>
       <main>
-        <About></About>
-        <ContactForm></ContactForm>
+        {currentPage === 'about' && <About></About>}
+        {currentPage === 'contact' && <ContactForm></ContactForm>}
       </main>
+      <footer>
       <Footer></Footer>
+      </footer>
     </div>
   );
 }

@@ -1,11 +1,8 @@
 import React, { useEffect } from "react";
 
-function Nav(props) {
+function Nav({ currentPage, setCurrentPage }) {
 
-    const {
-        setContactSelected
-    } = props;
-
+    
     return (
         <nav className="navbar">
             <div className="navbar-menu">
