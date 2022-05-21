@@ -5,6 +5,7 @@ import ContactForm from './components/Contact';
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Footer from './components/Footer'
+import Portfolio from './components/Project';
 
 import {
   BrowserRouter as Router,
@@ -13,15 +14,7 @@ import {
 } from 'react-router-dom'
 
 function App() {
-  //const [currentPage, setCurrentPage] = useState('about')
   return (
-    // <BrowserRouter>
-    //   <Routes>
-    //       <Route path="/" element={<Header />}>
-    //       <Route path="/" element={<Nav />} />
-    //       </Route>
-    //   </Routes>
-    // </BrowserRouter>
     <Router>
       <div>
         <Header>
@@ -30,6 +23,9 @@ function App() {
         <Nav />
         <Routes>
           <Route path='about' element={<About />} />
+          <Route path='portfolio' element={<Portfolio />} />
+          <Route path='contact' element={<ContactForm />} />
+          <Route path='resume' element={<Resume />} />
         </Routes>
         </div>
       <main>

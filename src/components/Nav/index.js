@@ -11,15 +11,15 @@ function Nav() {
                     <li  className="navbar-item m-1">
                         <Link to='about'>About Me</Link>
                     </li>
-                    <a className="navbar-item">
-                        Portfolio
-                    </a>
-                    <a className="navbar-item">
-                        Contact
-                    </a>
-                    <a className="navbar-item">
-                        Resume
-                    </a>
+                    <li className="navbar-item">
+                        <Link to='portfolio'>Portfolio</Link>
+                    </li>
+                    <li className="navbar-item">
+                        <Link to='contact'>Contact</Link>
+                    </li>
+                    <li className="navbar-item">
+                        <Link to='resume'>Resume</Link>
+                    </li>
                 </div>
             </div>
         </nav>
