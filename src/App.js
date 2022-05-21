@@ -4,9 +4,11 @@ import About from './components/About';
 import ContactForm from './components/Contact';
 import Header from './components/Header';
 import Nav from './components/Nav';
+import Footer from './components/Footer'
+
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false)
+  const [currentPage, setCurrentCategory] = useState(false)
   return (
     <div>
       <Header></Header>
@@ -15,6 +17,7 @@ function App() {
         <About></About>
         <ContactForm></ContactForm>
       </main>
+      <Footer></Footer>
     </div>
   );
 }
