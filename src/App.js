@@ -6,14 +6,14 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Footer from './components/Footer'
 
-// import {
-//   BrowserRouter,
-//   Routes,
-//   Route
-// } from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from 'react-router-dom'
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('about')
+  //const [currentPage, setCurrentPage] = useState('about')
   return (
     // <BrowserRouter>
     //   <Routes>
@@ -22,19 +22,23 @@ function App() {
     //       </Route>
     //   </Routes>
     // </BrowserRouter>
-    <div>
-      <Header currentPage = {currentPage} setCurrentPage = {setCurrentPage}>
-        
-      </Header>
-      <Nav></Nav>
+    <Router>
+      <div>
+        <Header>
+        </Header>
+        <div>
+        <Nav />
+        <Routes>
+          <Route path='about' element={<About />} />
+        </Routes>
+        </div>
       <main>
-        {currentPage === 'about' && <About></About>}
-        {currentPage === 'contact' && <ContactForm></ContactForm>}
       </main>
       <footer>
       <Footer></Footer>
       </footer>
     </div>
+    </Router>
   );
 }
 

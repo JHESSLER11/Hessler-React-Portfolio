@@ -1,22 +1,23 @@
 import React, { useEffect } from "react";
+import { Link } from 'react-router-dom'
 
-function Nav({ currentPage, setCurrentPage }) {
+function Nav() {
 
     
     return (
         <nav className="navbar">
             <div className="navbar-menu">
                 <div className="navbar-start">
-                    <a  className="navbar-item m-1" data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-                        About Me
-                    </a>
-                    <a className="navbar-item" data-testid="portfolio" href="#portfolio" onClick={() => setContactSelected(false)}>
+                    <li  className="navbar-item m-1">
+                        <Link to='about'>About Me</Link>
+                    </li>
+                    <a className="navbar-item">
                         Portfolio
                     </a>
-                    <a className="navbar-item" data-testid="contact" href="#contact" onClick={() => setContactSelected(false)}>
+                    <a className="navbar-item">
                         Contact
                     </a>
-                    <a className="navbar-item" data-testid="resume" href="#resume" onClick={() => setContactSelected(false)}>
+                    <a className="navbar-item">
                         Resume
                     </a>
                 </div>
