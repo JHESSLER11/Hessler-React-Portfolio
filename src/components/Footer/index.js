@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import 'font-awesome/css/font-awesome.min.css';
+//import 'font-awesome/css/font-awesome.min.css';
+//import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-solid-svg-icons'
+
 
 function Footer() {
 
@@ -8,14 +10,14 @@ function Footer() {
             <div className="content has-text-centered">
                 <div>
                     <a href='https://github.com/JHESSLER11'>
-                    <FontAwesomeIcon icon="fa-brands fa-github" size='lg'/>
+                    <img src='/images/GitHub-Mark-32px.png' alt='Github Logo'></img>
                     </a>
                 </div>
                 <div>
-                    <FontAwesomeIcon icon="fab fa-linkedin"/>
+                   
                 </div>
                 <div>
-                    <FontAwesomeIcon icon="fab fa-stack-overflow" />
+                    
                 </div>
             </div>
         </section>

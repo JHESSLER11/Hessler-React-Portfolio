@@ -1,4 +1,4 @@
-
+//import JordanImage from './images/Jordan2021.jpeg';
 
 function About() {
     return (
@@ -7,6 +7,9 @@ function About() {
                 <h1>
                     About Me
                 </h1>
+            </div>
+            <div>
+                <img src='/images/Jordan2021.jpeg' alt="Image of Jordan"/>
             </div>
             <a>
                 text
