@@ -14,8 +14,13 @@ function Footer() {
                     </a>
                 </div>
                 <div>
-                   
+                <a href='https://www.linkedin.com/in/hessler11/'>
+                    <img src='/images/linkedin-32.png' alt='linkedin Logo'></img>
+                    </a>
                 </div>
+                <a href='https://stackoverflow.com/users/18665163/hess'>
+                    <img src='/images/stack-overflow-32.png' alt='Stack Overflow Icon'></img>
+                    </a>
                 <div>
                     
                 </div>
