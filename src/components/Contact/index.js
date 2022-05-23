@@ -36,20 +36,20 @@ function ContactForm() {
     }
     
     return (
-        <section>
-          <h1>Contact me</h1>
-          <form id="contact-form" onSubmit={handleSubmit}>
-            <div>
-                <label htmlFor="name">Name:</label>
-                <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+        <section className="form">
+          <h1 className="is-size-3">Contact me:</h1>
+          <form className="box flex is-justify-content-center" id="contact-form" onSubmit={handleSubmit}>
+            <div className="field">
+                <label className="label" htmlFor="name">Name:</label>
+                <input type="text" placeholder="Your Name" defaultValue={name} onBlur={handleChange} name="name" />
             </div>
-            <div>
-                <label htmlFor="email">Email address:</label>
-                <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
+            <div className="field">
+                <label className="label" htmlFor="email">Email address:</label>
+                <input type="email" placeholder="your@email.com" defaultValue={email} name="email" onBlur={handleChange} />
             </div>
-            <div>
-                <label htmlFor="message">Message:</label>
-                <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+            <div className="field">
+                <label className="label" htmlFor="message">Message:</label>
+                <textarea className="textarea" placeholder="Message" name="message" defaultValue={message} onBlur={handleChange} rows="5" />
             </div>
             {errorMessage && (
                 <div>
