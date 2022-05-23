@@ -37,8 +37,8 @@ function ContactForm() {
     
     return (
         <section className="form">
-          <h1 className="is-size-3">Contact me:</h1>
-          <form className="box flex is-justify-content-center" id="contact-form" onSubmit={handleSubmit}>
+          <h1 className="is-size-4 p-3">Contact me</h1>
+          <form className="box flex is-justify-content-center is-size-5" id="contact-form" onSubmit={handleSubmit}>
             <div className="field">
                 <label className="label" htmlFor="name">Name:</label>
                 <input type="text" placeholder="Your Name" defaultValue={name} onBlur={handleChange} name="name" />
