@@ -4,8 +4,8 @@ function Portfolio() {
 
     return (
         <section className="portfolio">
-            <div className="is-size-4 m-3">Portfolio</div>
-            <div className="columns  is-multiline is-mobile is-centered m-3">
+            <div className="is-size-4 p-3">Portfolio</div>
+            <div className="columns  is-multiline is-mobile is-centered p-3">
                 <div className="c1 column is-one-third m-1">
                     <div className="portGit is-centered">
                         <div>Happy Trees!</div>
