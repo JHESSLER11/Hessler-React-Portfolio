@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from 'react-router-dom'
 
 
@@ -14,7 +14,7 @@ function Nav(props) {
                 Jordan Hessler </a>
             </h2>
             <nav className="navbar">
-                <div className="navbar-menu">
+                <div className="navbar-menu is-active">
                     <div className="navbar-end is-size-5">
                         <li  className="navbar-item">
                             <Link to='about'>About Me</Link>

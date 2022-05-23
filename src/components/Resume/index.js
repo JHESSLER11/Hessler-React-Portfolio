@@ -17,10 +17,10 @@ function Resume() {
     // })
     return (
        
-       <section>
-           <h2>Proficiencies</h2>
+       <section className="resume">
+           <h2 className=" is-size-4 m-3">Proficiencies</h2>
             <ul id="pList"></ul>
-            <div>
+            <div className="is-size-5 m-3">
                 <a href="/pdf/jhessler.pdf" download="jhessler">Download Resume!</a>
             </div>
        </section>

@@ -3,11 +3,11 @@
 function Portfolio() {
 
     return (
-        <section>
-            <div className="is-size-4">Portfolio</div>
+        <section className="portfolio">
+            <div className="is-size-4 m-3">Portfolio</div>
             <div className="columns  is-multiline is-mobile is-centered m-3">
                 <div className="c1 column is-one-third m-1">
-                    <div className="portGit">
+                    <div className="portGit is-centered">
                         <div>Happy Trees!</div>
                             <a href='https://github.com/JHESSLER11/Weather-Application'>
                             <img src='/images/GitHub-Mark-32px.png' alt='Github Logo'></img>

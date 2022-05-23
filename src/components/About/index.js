@@ -8,7 +8,7 @@ function About() {
                     About Me
                 </h1>
             </div>
-            <div className="image is-128x128">
+            <div className="image is-128x128 m-3">
                 <img className="is-rounded" src='/images/Jordan2021.jpeg' alt="Image of Jordan"/>
             </div>
             <div className="is-size-5 m-3">
