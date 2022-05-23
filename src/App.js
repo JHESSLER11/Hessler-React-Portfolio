@@ -19,8 +19,6 @@ function App() {
   return (
     <Router>
       <div>
-        <Header>
-        </Header>
         <div>
         <Nav />
         <Routes>

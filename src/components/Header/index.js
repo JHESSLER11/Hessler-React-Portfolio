@@ -7,7 +7,7 @@ function Header(props) {
 
     return (
         <header>
-            <h2> <a data-testid="link" href="/" onClick={() => setContactSelected(false)}>
+            <h2> <a data-testid="link" href="/about" onClick={() => setContactSelected(false)}>
                 Jordan Hessler </a>
             </h2>
         </header>
