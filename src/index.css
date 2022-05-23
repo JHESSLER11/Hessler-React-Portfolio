@@ -29,13 +29,52 @@ code {
 
 .column:hover .portGit {
   display: block;
-  opacity: none;
+  opacity: 1;
 }
 
 .portGit {
   display: none;
-  width: auto;
-  height: auto;
+  background-color: whitesmoke;
+}
+
+.c1 {
+  background-image: url('/public/images/weather-app.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 225px;
+  height: 225px;
+
+}
+
+.c2 {
+  background-image: url('/public/images/trees.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 225px;
+  height: 225px;
+
+}
+
+.c3 {
+  background-image: url('/public/images/tech-blog.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 225px;
+  height: 225px;
+
+}
+
+.c4 {
+  background-image: url('/public/images/social.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 225px;
+  height: 225px;
+
 }
 
 
