@@ -22,6 +22,11 @@ code {
   opacity: 0.5;
 }
 
+.column {
+  border: 2px solid;
+}
+
+
 .column:hover .portGit {
   display: block;
   opacity: none;
@@ -29,7 +34,8 @@ code {
 
 .portGit {
   display: none;
-  opacity: none;
+  width: auto;
+  height: auto;
 }
 
 

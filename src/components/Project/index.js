@@ -13,7 +13,15 @@ function Portfolio() {
                     <div>Web API's</div>
                 </div>
             </div>
-            <div className="column is-one-third">2</div>
+            <div className="column is-one-third">
+            <img src="/images/trees.jpeg"  alt="Happy Trees Application" title="Happy Trees!"/>
+                <div className="portGit">
+                    <a href='https://github.com/HackStreetPeople/happy-trees'>
+                    <img src='/images/GitHub-Mark-32px.png' alt='Github Logo'></img>
+                    </a>
+                    <div>JS, MySQL, Handlebars</div>
+                </div>
+            </div>
             <div className="column is-one-third">3</div>
             <div className="column is-one-third">4</div>
             <div className="column is-one-third">5</div>
