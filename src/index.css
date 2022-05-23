@@ -24,6 +24,11 @@ code {
 
 .column {
   border: 2px solid;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 225px;
+  height: 225px;
 }
 
 
@@ -39,42 +44,30 @@ code {
 
 .c1 {
   background-image: url('/public/images/weather-app.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 225px;
-  height: 225px;
 
 }
 
 .c2 {
   background-image: url('/public/images/trees.jpeg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 225px;
-  height: 225px;
-
+  
 }
 
 .c3 {
   background-image: url('/public/images/tech-blog.png');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 225px;
-  height: 225px;
-
+  
 }
 
 .c4 {
   background-image: url('/public/images/social.jpeg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 225px;
-  height: 225px;
 
+}
+
+.c5 {
+  background-image: url('/public/images/budget.png');
+}
+
+.c6 {
+  background-image: url('/public/images/dogs.png');
 }
 
 

@@ -40,8 +40,24 @@ function Portfolio() {
                     <div>JS and NoSQL</div>
                 </div>
             </div>
-            <div className="column is-one-third m-1">5</div>
-            <div className="column is-one-third m-1">6</div>
+            <div className="c5 column is-one-third m-1">
+            <div className="portGit">
+            <div>Budget Tracker</div>
+                    <a href='https://github.com/JHESSLER11/hess-budget-tracker'>
+                    <img src='/images/GitHub-Mark-32px.png' alt='Github Logo'></img>
+                    </a>
+                    <div>JS, NoSQL, and PWA</div>
+                </div>
+            </div>
+            <div className="c6 column is-one-third m-1">
+            <div className="portGit">
+            <div>Dognostic</div>
+                    <a href='https://github.com/Boolean-Hooligans/dognostic-1'>
+                    <img src='/images/GitHub-Mark-32px.png' alt='Github Logo'></img>
+                    </a>
+                    <div>JS, Web API's</div>
+                </div>
+            </div>
         </section>
     )
 
