@@ -18,11 +18,26 @@ function Resume() {
     return (
        
        <section className="resume">
-            <div className="is-size-5 p-3">
-                <a href="/pdf/jhessler.pdf" download="jhessler">Download Resume!</a>
+            <div className="is-size-4 p-3">
+                <a href="/pdf/jhessler.pdf" download="jhessler">Download Resume</a>
             </div>
-           <h2 className=" is-size-4 p-3">Proficiencies</h2>
-            <ul id="pList">
+           <h2 className="is-size-4 p-3">Proficiencies</h2>
+            <ul className="is-size-5 p-5" id="pList">
+                <li>Javascript</li>
+                <li>React</li>
+                <li>Html5</li>
+                <li>CSS</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Express</li>
+                <li>PWA</li>
+                <li>MongoDB</li>
+                <li>VScode</li>
+                <li>Rest API</li>
+                <li>Github</li>
+                <li>BulmaCSS</li>
+                <li>ArcGIS Software</li>
+                <li>AutoCAD Civil 3d</li>
             </ul>
        </section>
     )

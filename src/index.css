@@ -1,5 +1,5 @@
 * {
-  /* background-color: #809BCE; */
+ 
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: black;
 }
@@ -8,7 +8,6 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #809BCE; */
 }
 
 a {
@@ -63,7 +62,7 @@ a {
 }
 
 .box {
-  padding: 100px;
+  padding: 200px;
   background-color: #809BCE;
 }
 

@@ -10,14 +10,14 @@ function Nav(props) {
     
     return (
         <header className="header">
-            <h2 className="is-size-2"> <a data-testid="link" href="/about" onClick={() => setContactSelected(false)}>
+            <h2 className="is-size-2"> <a data-testid="link" href="/" onClick={() => setContactSelected(false)}>
                 Jordan Hessler </a>
             </h2>
             <nav className="navbar">
                 <div className="navbar-menu is-active">
                     <div className="navbar-end is-size-5">
                         <li  className="navbar-item">
-                            <Link to='about'>About Me</Link>
+                            <Link to='/'>About Me</Link>
                         </li>
                         <li className="navbar-item">
                             <Link to='portfolio'>Portfolio</Link>

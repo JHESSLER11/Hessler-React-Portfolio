@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import About from './components/About';
 import ContactForm from './components/Contact';
-import Header from './components/Header';
 import Nav from './components/Nav';
 import Footer from './components/Footer'
 import Portfolio from './components/Project';
@@ -22,7 +21,7 @@ function App() {
         <div>
         <Nav />
         <Routes>
-          <Route path='about' element={<About />} />
+          <Route path='/' element={<About />} />
           <Route path='portfolio' element={<Portfolio />} />
           <Route path='contact' element={<ContactForm />} />
           <Route path='resume' element={<Resume />} />

@@ -8,7 +8,7 @@ function Portfolio() {
             <div className="columns  is-multiline is-mobile is-centered p-3">
                 <div className="c1 column is-one-third m-1">
                     <div className="portGit is-centered">
-                        <div>Happy Trees!</div>
+                        <div>Weather Application</div>
                             <a href='https://github.com/JHESSLER11/Weather-Application'>
                             <img src='/images/GitHub-Mark-32px.png' alt='Github Logo'></img>
                             </a>
@@ -17,7 +17,7 @@ function Portfolio() {
                 </div>
                 <div className="c2 column is-one-third m-1">
                     <div className="portGit">
-                        <div>Happy Trees!</div>
+                        <div>Happy Trees</div>
                             <a href='https://github.com/HackStreetPeople/happy-trees'>
                             <img src='/images/GitHub-Mark-32px.png' alt='Github Logo'></img>
                             </a>
@@ -26,7 +26,7 @@ function Portfolio() {
                 </div>
                 <div className="c3 column is-one-third m-1">
                 <div className="portGit">
-                    <div>Tech Blog!</div>
+                    <div>Tech Blog</div>
                         <a href='https://github.com/JHESSLER11/Tech-Blog'>
                         <img src='/images/GitHub-Mark-32px.png' alt='Github Logo'></img>
                         </a>
