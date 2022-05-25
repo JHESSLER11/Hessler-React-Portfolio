@@ -26,6 +26,7 @@
   
 
   ## Screen Shot of About me page
-  ![Alt text](https://github.com/JHESSLER11/hess-budget-tracker/blob/main/public/images/budget_tracker.png)
+  ![Alt text](https://github.com/JHESSLER11/hessler-react-portfolio/blob/main/public/images/about-page.png)
   
   ## Screen Shot of Portfolio Page
+  ![Alt text](https://github.com/JHESSLER11/hessler-react-portfolio/blob/main/public/images/portfolio-page.png)
