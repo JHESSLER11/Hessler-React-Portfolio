@@ -15,7 +15,7 @@
   npm i
   
   ## Deployed Website
-  
+  https://jhessler11.github.io/hessler-react-portfolio/
   
   ## License
   MIT
@@ -25,5 +25,7 @@
   View my Github at the following link for more projects https://github.com/jhessler11
   
 
-  ## Screen Shot of Main Page
+  ## Screen Shot of About me page
   ![Alt text](https://github.com/JHESSLER11/hess-budget-tracker/blob/main/public/images/budget_tracker.png)
+  
+  ## Screen Shot of Portfolio Page
