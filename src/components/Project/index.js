@@ -10,7 +10,7 @@ function Portfolio() {
                     <div className="portGit is-centered">
                         <div>Weather Application</div>
                             <a href='https://github.com/JHESSLER11/Weather-Application'>
-                            <img src='/images/GitHub-Mark-32px.png' alt='Github Logo'></img>
+                            <img src={process.env.PUBLIC_URL + '/images/GitHub-Mark-32px.png'} alt='Github Logo'></img>
                             </a>
                         <div>Web API's</div>
                     </div>
@@ -19,7 +19,7 @@ function Portfolio() {
                     <div className="portGit">
                         <div>Happy Trees</div>
                             <a href='https://github.com/HackStreetPeople/happy-trees'>
-                            <img src='/images/GitHub-Mark-32px.png' alt='Github Logo'></img>
+                            <img src={process.env.PUBLIC_URL + '/images/GitHub-Mark-32px.png'} alt='Github Logo'></img>
                             </a>
                         <div>JS, MySQL, Handlebars</div>
                     </div>
@@ -28,7 +28,7 @@ function Portfolio() {
                 <div className="portGit">
                     <div>Tech Blog</div>
                         <a href='https://github.com/JHESSLER11/Tech-Blog'>
-                        <img src='/images/GitHub-Mark-32px.png' alt='Github Logo'></img>
+                        <img src={process.env.PUBLIC_URL + '/images/GitHub-Mark-32px.png'} alt='Github Logo'></img>
                         </a>
                         <div>JS and MySQL</div>
                     </div>
@@ -37,7 +37,7 @@ function Portfolio() {
                 <div className="portGit">
                     <div>Social Network API</div>
                         <a href='https://github.com/JHESSLER11/Social-Network-API'>
-                        <img src='/images/GitHub-Mark-32px.png' alt='Github Logo'></img>
+                        <img src={process.env.PUBLIC_URL + '/images/GitHub-Mark-32px.png'} alt='Github Logo'></img>
                         </a>
                         <div>JS and NoSQL</div>
                     </div>
@@ -46,7 +46,7 @@ function Portfolio() {
                     <div className="portGit">
                         <div>Budget Tracker</div>
                             <a href='https://github.com/JHESSLER11/hess-budget-tracker'>
-                            <img src='/images/GitHub-Mark-32px.png' alt='Github Logo'></img>
+                            <img src={process.env.PUBLIC_URL + '/images/GitHub-Mark-32px.png'} alt='Github Logo'></img>
                             </a>
                         <div>JS, NoSQL, and PWA</div>
                     </div>
@@ -55,7 +55,7 @@ function Portfolio() {
                     <div className="portGit">
                         <div>Dognostic</div>
                             <a href='https://github.com/Boolean-Hooligans/dognostic-1'>
-                            <img src='/images/GitHub-Mark-32px.png' alt='Github Logo'></img>
+                            <img src={process.env.PUBLIC_URL + '/images/GitHub-Mark-32px.png'} alt='Github Logo'></img>
                             </a>
                         <div>JS, Web API's</div>
                     </div>
