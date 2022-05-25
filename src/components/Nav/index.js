@@ -10,9 +10,10 @@ function Nav(props) {
     
     return (
         <header className="header">
-            <h2 className="is-size-2"> <a data-testid="link" href="hessler-react-portfolio" onClick={() => setContactSelected(false)}>
-                Jordan Hessler </a>
+            <h2 className="is-size-2 p-3"> <a data-testid="link" href="hessler-react-portfolio" onClick={() => setContactSelected(false)}>
+                Jordan Hessler</a>
             </h2>
+            <div className="is-size-4 p-3">Full Stack Developer</div>
             <nav className="navbar">
                 <div className="navbar-menu is-active">
                     <div className="navbar-end is-size-5">
