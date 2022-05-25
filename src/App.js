@@ -21,7 +21,7 @@ function App() {
         <div>
         <Nav />
         <Routes>
-          <Route path='/' element={<About />} />
+          <Route path='hessler-react-portfolio' element={<About />} />
           <Route path='portfolio' element={<Portfolio />} />
           <Route path='contact' element={<ContactForm />} />
           <Route path='resume' element={<Resume />} />
