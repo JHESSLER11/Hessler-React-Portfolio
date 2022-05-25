@@ -3,7 +3,7 @@
   # Hess React Portfolio
 
   ## Project Description 
-  The website displays my skills as a full stack developer on a profile page where a user can vist the repositroy of each porject. A user can contact me   through the contact page and a user can download my latest resume. A list of proficiencies are also shown on the resume page. An about me section will come up when the page is loaded so a user can get to know me better. 
+  The website displays my skills as a full stack developer on a profile page where a user can vist the repositroy of each porject included on the page. A user can contact me through the contact page and a user can download my latest resume. A list of proficiencies are also shown on the resume page. An about me section will come up when the page is loaded so a user can get to know me better. 
   
   ## Table of Contents
   - [Instillation](#Instillation-Requirements)
@@ -25,7 +25,7 @@
   View my Github at the following link for more projects https://github.com/jhessler11
   
 
-  ## Screen Shot of About me page
+  ## Screen Shot of About Me Page
   ![Alt text](https://github.com/JHESSLER11/hessler-react-portfolio/blob/main/public/images/about-page.png)
   
   ## Screen Shot of Portfolio Page
