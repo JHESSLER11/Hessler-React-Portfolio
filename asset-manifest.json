@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/hessler-react-portfolio/static/css/main.9303413c.css",
-    "main.js": "/hessler-react-portfolio/static/js/main.74e2fcba.js",
+    "main.css": "/hessler-react-portfolio/static/css/main.01379b06.css",
+    "main.js": "/hessler-react-portfolio/static/js/main.a0f0c3df.js",
     "static/js/787.d3acf6a3.chunk.js": "/hessler-react-portfolio/static/js/787.d3acf6a3.chunk.js",
     "static/media/dogs.png": "/hessler-react-portfolio/static/media/dogs.168b9b2d7b2658c498de.png",
     "static/media/weather-app.png": "/hessler-react-portfolio/static/media/weather-app.83010ec6571516066038.png",
+    "static/media/dog-cartoon.png": "/hessler-react-portfolio/static/media/dog-cartoon.45409e308bcd15b3a725.png",
     "static/media/trees.jpeg": "/hessler-react-portfolio/static/media/trees.6d491b986d1272cf9262.jpeg",
     "static/media/tech-blog.png": "/hessler-react-portfolio/static/media/tech-blog.2be8ad92b6a164156e63.png",
-    "static/media/social.jpeg": "/hessler-react-portfolio/static/media/social.20bb86949e2ba2426f0f.jpeg",
     "static/media/budget.png": "/hessler-react-portfolio/static/media/budget.6dda9bfa433364091870.png",
     "index.html": "/hessler-react-portfolio/index.html",
-    "main.9303413c.css.map": "/hessler-react-portfolio/static/css/main.9303413c.css.map",
-    "main.74e2fcba.js.map": "/hessler-react-portfolio/static/js/main.74e2fcba.js.map",
+    "main.01379b06.css.map": "/hessler-react-portfolio/static/css/main.01379b06.css.map",
+    "main.a0f0c3df.js.map": "/hessler-react-portfolio/static/js/main.a0f0c3df.js.map",
     "787.d3acf6a3.chunk.js.map": "/hessler-react-portfolio/static/js/787.d3acf6a3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9303413c.css",
-    "static/js/main.74e2fcba.js"
+    "static/css/main.01379b06.css",
+    "static/js/main.a0f0c3df.js"
   ]
 }
