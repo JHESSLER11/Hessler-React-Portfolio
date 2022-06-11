@@ -35,11 +35,11 @@ function Portfolio() {
                 </div>
                 <div className="c4 column is-one-third m-1">
                 <div className="portGit">
-                    <div>Social Network API</div>
-                        <a href='https://github.com/JHESSLER11/Social-Network-API'>
+                    <div>CodeSpect</div>
+                        <a href='https://github.com/Weekend-at-MERNie-s/checkout-my-code'>
                         <img src={process.env.PUBLIC_URL + '/images/GitHub-Mark-32px.png'} alt='Github Logo'></img>
                         </a>
-                        <div>JS and NoSQL</div>
+                        <div>MERN Stack Application</div>
                     </div>
                 </div>
                 <div className="c5 column is-one-third m-1">
