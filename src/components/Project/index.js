@@ -9,7 +9,7 @@ function Portfolio() {
                 <div className="c1 column is-one-third m-1">
                     <div className="portGit is-centered">
                         <div>Weather Application</div>
-                            <a href='https://github.com/JHESSLER11/Weather-Application'>
+                            <a href='https://github.com/jhessler11/Weather-Application'>
                             <img src={process.env.PUBLIC_URL + '/images/GitHub-Mark-32px.png'} alt='Github Logo'></img>
                             </a>
                         <div>Web API's</div>
@@ -27,7 +27,7 @@ function Portfolio() {
                 <div className="c3 column is-one-third m-1">
                 <div className="portGit">
                     <div>Tech Blog</div>
-                        <a href='https://github.com/JHESSLER11/Tech-Blog'>
+                        <a href='https://github.com/jhessler11/Tech-Blog'>
                         <img src={process.env.PUBLIC_URL + '/images/GitHub-Mark-32px.png'} alt='Github Logo'></img>
                         </a>
                         <div>JS and MySQL</div>
@@ -45,7 +45,7 @@ function Portfolio() {
                 <div className="c5 column is-one-third m-1">
                     <div className="portGit">
                         <div>Budget Tracker</div>
-                            <a href='https://github.com/JHESSLER11/hess-budget-tracker'>
+                            <a href='https://github.com/jhessler11/hess-budget-tracker'>
                             <img src={process.env.PUBLIC_URL + '/images/GitHub-Mark-32px.png'} alt='Github Logo'></img>
                             </a>
                         <div>JS, NoSQL, and PWA</div>
