@@ -19,7 +19,7 @@ function Resume() {
        
        <section className="resume">
             <div className="is-size-3 p-3">
-                <a href="public/pdf/jhessler.pdf" download="jhessler">Download Resume</a>
+                <a href="https://github.com/jhessler11/hessler-react-portfolio/blob/main/public/pdf/jhessler.pdf" download="jhessler">Download Resume</a>
             </div>
            <h2 className="is-size-4 p-3">Proficiencies:</h2>
             <ul className="is-size-5 p-5" id="pList">
